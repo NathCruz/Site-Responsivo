@@ -11,6 +11,13 @@
     #header .navbar-collapse {
         width: 100%;
     }
+    #header .navbar-brand img {
+        max-width: 180px;
+    }
+    #contato .email img {
+        width: 90px;
+        top: -40px;
+    }
  }
 
  @media (max-width: 767.98px) {
@@ -26,4 +33,12 @@
     #clientes .cliente-texto .imagem img {
         max-width: 150px;
     }
+    #contato .email {
+        padding: 60px 30px 50px 30px;
+    }
+    #contato .email form {
+        width: 100%;
+        flex-direction: column;
+    }
+
  }
